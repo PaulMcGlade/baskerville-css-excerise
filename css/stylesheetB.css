@@ -1,192 +1,201 @@
+/*---------------Body------------*/
+
+
 body    {
             margin:auto;
-            width: 75%;
+            width: 70%;
             max-width: 750px;
             min-width:320px;
             font-size: 100%;
                     }
 
-.v1
-{
-    font-family: 'Libre Baskerville', Georgia, serif;
-    line-height: 1.6em;
-}
+    .v1
+        {
+            font-family: 'Libre Baskerville', Georgia, serif;
+            line-height: 1.6em;
+        }
 
-.v2, .v3
-{
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6em;
-}
+    .v2
+        {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.4em;
+        }
 
-hr
-{
-    border: 1px solid hotpink;
-}
+    .v3
+        {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.4em;
+        }
 
-/* type */
+    
+/*---------------Type------------*/
+
 
 h1, h2, h3
-{
-    font-weight: normal;
-}
+            {
+                font-weight: normal;
+            }
 
-.dropcaps
-{
-    float: left;
-    font-size: 5.59em;
-    padding-bottom: 10px;
-}
+        .dropcaps
+            {
+                float: left;
+                font-size: 5em;
+                padding-bottom: 12px;
+            }
 
-.uppercase
-{
-    text-transform: uppercase;
-}
+        .uppercase
+            {
+                text-transform: uppercase;
+            }
 
-.indent
-{
-    text-indent: 2em;
-}
+        .indent
+            {
+                text-indent: 1.7em;
+            }
 
-/* Version 1 */
+/*---------------Version1------------*/
 
 
-.v1 h1 
-{
-    font-size: 3.998em;
-    margin-top: 25px;
-    margin-bottom: 35px;
-    line-height: 1.2em;
-}
-.v1 h2 
-{
-    font-size: 1.999em;
-    font-style: italic;
-    line-height: 1.1em;
-}
+    .v1 h1 
+        {
+            font-size: 3.998em;
+            margin-top: 25px;
+            margin-bottom: 35px;
+            line-height: 1.2em;
+        }
+    
+    .v1 h2 
+        {
+            font-size: 1.999em;
+            font-style: italic;
+            line-height: 1.1em;
+        }
 
-.v1 h3
-{
-    margin-top: 4em;
-    font-size: 1em;
-    text-transform: uppercase;
-}
+    .v1 h3
+        {
+            margin-top: 4em;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
 
-.v1 .intro
-{
-    font-size: 1.212em;
-    margin: 2.5em 0;
-    line-height: 1.6em;
-}
+    .v1 .intro
+        {
+            font-size: 1.212em;
+            margin: 2.5em 0;
+            line-height: 1.6em;
+        }
 
-.v1 blockquote
-{
-    margin: 2.5em 0;
-    color: #888;
-    font-style: italic;
-    font-size: 1.212em;
-    line-height: 1.6em;
-    text-indent: -0.39em
-}
+    .v1 blockquote
+        {
+            margin: 2.5em 0;
+            color: #888;
+            font-style: italic;
+            font-size: 1.3em;
+            line-height: 1.8em;
+            text-indent: -0.5em
+        }
 
-.v1 cite
-{
-    font-size: 0.707em;
-}
+    .v1 cite
+        {
+            font-size: 0.8em;
+        }
 
-/* Version 2 */
+/*---------------Version2------------*/
 
-.v2 h1
-{
-    font-size: 3.998em;
-    margin-top: 20px;
-    margin-bottom:40px;
-    line-height: 1.2em;
-}
 
-.v2 h2
-{
-    font-size: 1.414em;
-    font-style: italic;
-}
+    .v2 h1
+        {
+            font-size: 4em;
+            margin-top: 20px;
+            margin-bottom:40px;
+            line-height: 1.2em;
+        }
 
-.v2 h3
-{
-    margin-top: 4em;   
-    font-size: 1em;
-    text-transform: uppercase;
-}
+    .v2 h2
+        {
+            font-size: 1.4em;
+            font-style: italic;
+        }
 
-.v2 p
-{
-    margin: 0;
-}
+    .v2 h3
+        {
+            margin-top: 4em;   
+            font-size: 1em;
+            text-transform: uppercase;
+        }
 
-.v2 .intro
-{
-    margin: 2.5em 0;
-    font-size: 1.212em;
-    line-height: 1.4em;
-}
+    .v2 p
+        {
+            margin: 0;
+        }
 
-.v2 blockquote
-{
-    margin: 2.5em 0;
-    color: #888;
-    text-indent: -0.4em;
-    font-size: 1.212em;
-    line-height: 1.5em;
-}
+    .v2 .intro
+        {
+            margin: 2.5em 0;
+            font-size: 1.2em;
+            line-height: 1.4em;
+        }
 
-.v2 blockquote p
-{
-    margin-bottom: 1em;
-}   
+    .v2 blockquote
+        {
+            margin: 2.5em 0;
+            color: #888;
+            text-indent: -0.4em;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
 
-.v2 cite
-{
-    font-size: 0.707em;
-}
+    .v2 blockquote p
+        {
+            margin-bottom: 1em;
+        }   
 
-/* Version 3 */
+    .v2 cite
+        {
+            font-size: 0.8em;
+        }
 
-.v3 h1
-{
-    font-family: 'Slabo 27px', serif;
-    font-size: 3.998em;
-    margin:0;
-}
+/*---------------Version3------------*/
 
-.v3 h2
-{
-    font-family: 'Slabo 27px', serif;
-    font-style: italic;
-    margin-top:30px;
-}
 
-.v3 h3
-{
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
+    .v3 h1
+        {
+            font-family: 'Slabo 27px', serif;
+            font-size: 3.998em;
+            margin:0;
+        }
 
-.v3 .intro
-{
-    margin: 2.5em 0;
-    font-size: 1.212em;
-    line-height: 1.5em;
-}
+    .v3 h2
+        {
+            font-family: 'Slabo 27px', serif;
+            font-style: italic;
+            margin-top:30px;
+        }
 
-.v3 blockquote
-{
-    font-family: 'Slabo 27px', serif;
-    margin: 2.5em 0 4em 0;
-    font-size: 1.414em;
-    line-height:1.5em;
-    color: #888;
-    text-indent: -0.35em
-}
+    .v3 h3
+        {
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
 
-.v3 cite
-{
-    font-size: 0.717em;
-}
+    .v3 .intro
+        {
+            margin: 2.5em 0;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+    .v3 blockquote
+        {
+            font-family: 'Slabo 27px', serif;
+            margin: 2.5em 0 4em 0;
+            font-size: 1.4em;
+            line-height:1.5em;
+            color: #888;
+            text-indent: -0.4em
+        }
+
+    .v3 cite
+        {
+            font-size: 0.8em;
+        }

@@ -6,4 +6,4 @@ Develop HTML and CSS. This exercise is part of the [IxD Belfast] module
 
 ##27nd November 2015
 
-<a href="https://PaulMcGlade.github.io/baskerville-excerise/baskerville.html">Version 1, 2 and 3</a>
+<a href="https://PaulMcGlade.github.io/baskerville-excerise/index.html">Version 1, 2 and 3</a>

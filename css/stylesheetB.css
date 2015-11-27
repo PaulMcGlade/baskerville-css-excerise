@@ -18,13 +18,13 @@ body    {
     .v2
         {
             font-family: 'Open Sans', sans-serif;
-            line-height: 1.4em;
+            line-height: 1.6em;
         }
 
     .v3
         {
             font-family: 'Open Sans', sans-serif;
-            line-height: 1.4em;
+            line-height: 1.6em;
         }
 
     
@@ -155,6 +155,7 @@ h1, h2, h3
             font-size: 0.8em;
         }
 
+
 /*---------------Version3------------*/
 
 
@@ -175,7 +176,7 @@ h1, h2, h3
     .v3 h3
         {
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
     .v3 .intro
